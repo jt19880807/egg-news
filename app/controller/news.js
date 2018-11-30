@@ -3,9 +3,12 @@
 const Controller = require('egg').Controller;
 
 class NewsController extends Controller {
-  async echo() {
+  async list() {
     
   }
+  async content() {
+    
+}
 }
 
 module.exports = NewsController;
